@@ -24,18 +24,28 @@ header>nav{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
 }
 
 .Color-banner{
     font-family: poppins;
-    font-weight: 600;
+    font-weight: 900;
     font-size: 2rem;
-    border: 4px solid black;
-    padding: 50px 100px 50px 30px;
-    padding-right: 10rem;
-    border-radius: 30px;
+    color: white;
+    background-color: rgba(47, 151, 193, 0.973);
+    border: 4px solid rgb(180, 245, 236);
+    padding: 50px 40px 50px 30px;
+    border-radius: 70px;
     margin-bottom:5rem ;
+}
+
+.color-code{
+
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: blue;
+    
 }
 
 button{
@@ -50,4 +60,12 @@ button{
     box-shadow:  0 0 10px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     margin: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover{
+
+    background-color: rgb(2, 188, 164);
+    box-shadow:  0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
 }
